@@ -14,3 +14,7 @@ birthday_kids = {
     "Sarah" => 6, 
     "Amanda" => 27
 }
+ 
+birthday_kids.each do |kids_name, age|
+    age
+end
